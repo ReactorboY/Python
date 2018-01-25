@@ -1,11 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 24 09:49:13 2018
+
+@author: sharda
+"""
+
 a = [[1,2], [2,3]]
 
-def countMe(list, elm):
-    count = 0
-    for i in range(0,len(list)):
-        for j in range(0,len(list)):
-            if (list[i][j] == elm):
-                count += 1
-    print(count)
-
-countMe(a,1)
+for i in range(0,len(a)):
+    for j in range(0,len(a)):
+        print(a[i][j])
