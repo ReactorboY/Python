@@ -12,7 +12,7 @@ for i in range(0,len(a)) :
     b=b+a[i]
 print (b)
 
-for i in range(0, len(b)-1):
+for i in range(0, len(a)):
     for j in range(0, len(b) - 1):
         if (b[j] > b[j+1]):
             temp = b[j]
